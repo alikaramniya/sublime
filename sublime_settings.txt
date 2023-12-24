@@ -1,0 +1,26 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 1, 		
+	"font_face": "Fira Code Medium",
+	"font_options": [
+		// "bold"	
+	],
+	"line_numbers": false,
+	"font_size": 16,
+	"ignored_packages": [
+	],
+	"index_files": true,
+	"theme": "Material Spaceblack.sublime-theme",
+	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
+	"line_padding_bottom": 15,
+	"line_padding_top": 15,
+	"vintage_start_in_command_mode": true,
+	"vintage_ctrl_keys": true,
+	"hide_minimap": true,
+	"auto_complete": false,
+	"word_wrap": "auto",
+}
+
