@@ -10,7 +10,6 @@ Markup : <details>
            <p>Laravel Blade Spacer</p>
            <p>jsFormat</p>
            <p>jsPrettier</p>
-           <p>Material theme</p>
            <p>package control</p>
            <p>php cs fixer</p>
            <p>quick file creator</p>
