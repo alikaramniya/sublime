@@ -1,0 +1,25 @@
+{
+	"font_size": 19,
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"font_face": "Fira Code",
+	"ignored_packages":
+	[
+		"Vintageous",
+	],
+	"font_options":
+	[
+	    "gray_antialias",
+	    "subpixel_antialias"
+	],
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"index_files": false,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"vintage_start_in_command_mode": true,
+	"line_numbers": false,
+	"auto_complete": true,
+	"word_wrap": false,
+	//"save_on_focus_lost": true,
+	"dark_color_scheme": "Packages/aura-theme.tmTheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+}
