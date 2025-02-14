@@ -6,5 +6,18 @@
           { "key": "setting.command_mode", "operand": false },
           { "key": "setting.is_widget", "operand": false }
         ]
-    }
+    },
+    { "keys": [" ", "f"], "command": "quick_create_file", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [" ", "d"], "command": "quick_create_directory", "context": [{"key": "setting.command_mode"}] },
+    { "keys": ["alt+ctrl+l"], "command": "split_selection_into_lines" },
+    { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
+    { "keys": ["alt+t"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
+    { "keys": ["ctrl+shift+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+    { "keys": ["ctrl+shift+i"], "command": "lsp_format_document" },
+    { "keys": ["g", "d"], "command": "lsp_symbol_definition" },
+    { "keys": [" ", "h"], "command": "lsp_hover" },
+    { "keys": ["ctrl+y"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    { "keys": ["ctrl+e"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+    { "keys": ["ctrl+alt+shift+e"], "command": "slurp_find_string" },
+    { "keys": ["ctrl+shit+alt+y"], "command": "redo_or_repeat" },
 ]
